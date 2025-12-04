@@ -1,0 +1,20 @@
+sudo apt update
+sudo apt install python3
+
+python3 --version
+
+
+Virtial env
+python3 -m venv blog-fast-api
+source blog-fast-api/bin/activate
+
+fast api
+pip3 install fastapi
+pip3 install uvicorn
+
+
+run server
+uvicorn main:app --reload
+
+
+
