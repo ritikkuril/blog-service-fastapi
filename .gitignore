@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+blog-fast-api/
+__pycache__/
+*.pyc
+.env
+
 fastapi-env
 .DS_Store
 # C extensions
